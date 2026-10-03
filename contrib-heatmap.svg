@@ -1,9 +1,63 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 199"
      width="960" height="199">
   <rect x="1" y="1" width="958" height="197" rx="7" fill="#020b10" stroke="#00b9d9"/>
-<text x="36" y="12" font-family="sans-serif" font-size="11px" fill="#c9d1d9">Oct</text><text x="121" y="12" font-family="sans-serif" font-size="11px" fill="#c9d1d9">Nov</text><text x="206" y="12" font-family="sans-serif" font-size="11px" fill="#c9d1d9">Dec</text><text x="274" y="12" font-family="sans-serif" font-size="11px" fill="#c9d1d9">Jan</text><text x="342" y="12" font-family="sans-serif" font-size="11px" fill="#c9d1d9">Feb</text><text x="410" y="12" font-family="sans-serif" font-size="11px" fill="#c9d1d9">Mar</text><text x="495" y="12" font-family="sans-serif" font-size="11px" fill="#c9d1d9">Apr</text><text x="563" y="12" font-family="sans-serif" font-size="11px" fill="#c9d1d9">May</text><text x="648" y="12" font-family="sans-serif" font-size="11px" fill="#c9d1d9">Jun</text><text x="716" y="12" font-family="sans-serif" font-size="11px" fill="#c9d1d9">Jul</text><text x="784" y="12" font-family="sans-serif" font-size="11px" fill="#c9d1d9">Aug</text><text x="869" y="12" font-family="sans-serif" font-size="11px" fill="#c9d1d9">Sep</text>
+<text x="36" y="12" font-family="sans-serif" font-size="11px" fill="#c9d1d9">Sep</text><text x="53" y="12" font-family="sans-serif" font-size="11px" fill="#c9d1d9">Oct</text><text x="121" y="12" font-family="sans-serif" font-size="11px" fill="#c9d1d9">Nov</text><text x="206" y="12" font-family="sans-serif" font-size="11px" fill="#c9d1d9">Dec</text><text x="274" y="12" font-family="sans-serif" font-size="11px" fill="#c9d1d9">Jan</text><text x="342" y="12" font-family="sans-serif" font-size="11px" fill="#c9d1d9">Feb</text><text x="410" y="12" font-family="sans-serif" font-size="11px" fill="#c9d1d9">Mar</text><text x="495" y="12" font-family="sans-serif" font-size="11px" fill="#c9d1d9">Apr</text><text x="563" y="12" font-family="sans-serif" font-size="11px" fill="#c9d1d9">May</text><text x="648" y="12" font-family="sans-serif" font-size="11px" fill="#c9d1d9">Jun</text><text x="716" y="12" font-family="sans-serif" font-size="11px" fill="#c9d1d9">Jul</text><text x="784" y="12" font-family="sans-serif" font-size="11px" fill="#c9d1d9">Aug</text><text x="869" y="12" font-family="sans-serif" font-size="11px" fill="#c9d1d9">Sep</text>
 <text x="0" y="50" font-family="sans-serif" font-size="10px" fill="#c9d1d9">Mon</text><text x="0" y="84" font-family="sans-serif" font-size="10px" fill="#c9d1d9">Wed</text><text x="0" y="118" font-family="sans-serif" font-size="10px" fill="#c9d1d9">Fri</text>
 
+    <rect x="36" y="14" width="13" height="13" rx="2"
+          fill="#161b22" opacity="1">
+      <title>0 contributions on 2025-09-28</title>
+      <animate attributeName="opacity" from="0" to="1"
+               begin="0.000s" dur="0.35s" fill="freeze" />
+      <animate attributeName="y" from="14" to="20"
+               begin="0.000s" dur="0.35s" fill="freeze"
+               calcMode="spline" keySplines="0.2 0.8 0.2 1" />
+    </rect>
+    <rect x="36" y="31" width="13" height="13" rx="2"
+          fill="#26a641" opacity="1">
+      <title>3 contributions on 2025-09-29</title>
+      <animate attributeName="opacity" from="0" to="1"
+               begin="0.015s" dur="0.35s" fill="freeze" />
+      <animate attributeName="y" from="31" to="37"
+               begin="0.015s" dur="0.35s" fill="freeze"
+               calcMode="spline" keySplines="0.2 0.8 0.2 1" />
+    </rect>
+    <rect x="36" y="48" width="13" height="13" rx="2"
+          fill="#161b22" opacity="1">
+      <title>0 contributions on 2025-09-30</title>
+      <animate attributeName="opacity" from="0" to="1"
+               begin="0.030s" dur="0.35s" fill="freeze" />
+      <animate attributeName="y" from="48" to="54"
+               begin="0.030s" dur="0.35s" fill="freeze"
+               calcMode="spline" keySplines="0.2 0.8 0.2 1" />
+    </rect>
+    <rect x="36" y="65" width="13" height="13" rx="2"
+          fill="#161b22" opacity="1">
+      <title>0 contributions on 2025-10-01</title>
+      <animate attributeName="opacity" from="0" to="1"
+               begin="0.045s" dur="0.35s" fill="freeze" />
+      <animate attributeName="y" from="65" to="71"
+               begin="0.045s" dur="0.35s" fill="freeze"
+               calcMode="spline" keySplines="0.2 0.8 0.2 1" />
+    </rect>
+    <rect x="36" y="82" width="13" height="13" rx="2"
+          fill="#161b22" opacity="1">
+      <title>0 contributions on 2025-10-02</title>
+      <animate attributeName="opacity" from="0" to="1"
+               begin="0.060s" dur="0.35s" fill="freeze" />
+      <animate attributeName="y" from="82" to="88"
+               begin="0.060s" dur="0.35s" fill="freeze"
+               calcMode="spline" keySplines="0.2 0.8 0.2 1" />
+    </rect>
+    <rect x="36" y="99" width="13" height="13" rx="2"
+          fill="#161b22" opacity="1">
+      <title>0 contributions on 2025-10-03</title>
+      <animate attributeName="opacity" from="0" to="1"
+               begin="0.075s" dur="0.35s" fill="freeze" />
+      <animate attributeName="y" from="99" to="105"
+               begin="0.075s" dur="0.35s" fill="freeze"
+               calcMode="spline" keySplines="0.2 0.8 0.2 1" />
+    </rect>
     <rect x="36" y="116" width="13" height="13" rx="2"
           fill="#161b22" opacity="1">
       <title>0 contributions on 2025-10-04</title>
@@ -3236,8 +3290,8 @@
                calcMode="spline" keySplines="0.2 0.8 0.2 1" />
     </rect>
     <rect x="920" y="31" width="13" height="13" rx="2"
-          fill="#161b22" opacity="1">
-      <title>0 contributions on 2026-09-28</title>
+          fill="#0e4429" opacity="1">
+      <title>1 contributions on 2026-09-28</title>
       <animate attributeName="opacity" from="0" to="1"
                begin="1.575s" dur="0.35s" fill="freeze" />
       <animate attributeName="y" from="31" to="37"
@@ -3245,8 +3299,8 @@
                calcMode="spline" keySplines="0.2 0.8 0.2 1" />
     </rect>
     <rect x="920" y="48" width="13" height="13" rx="2"
-          fill="#161b22" opacity="1">
-      <title>0 contributions on 2026-09-29</title>
+          fill="#006d32" opacity="1">
+      <title>2 contributions on 2026-09-29</title>
       <animate attributeName="opacity" from="0" to="1"
                begin="1.590s" dur="0.35s" fill="freeze" />
       <animate attributeName="y" from="48" to="54"
@@ -3281,8 +3335,8 @@
                calcMode="spline" keySplines="0.2 0.8 0.2 1" />
     </rect>
     <rect x="920" y="116" width="13" height="13" rx="2"
-          fill="#161b22" opacity="1">
-      <title>0 contributions on 2026-10-03</title>
+          fill="#39d353" opacity="1">
+      <title>5 contributions on 2026-10-03</title>
       <animate attributeName="opacity" from="0" to="1"
                begin="1.650s" dur="0.35s" fill="freeze" />
       <animate attributeName="y" from="116" to="122"
@@ -3290,5 +3344,5 @@
                calcMode="spline" keySplines="0.2 0.8 0.2 1" />
     </rect>
 <text x="36" y="161" font-family="sans-serif" font-size="11px" fill="#c9d1d9">Less</text><rect x="70" y="151" width="13" height="13" rx="2" fill="#161b22" /><rect x="87" y="151" width="13" height="13" rx="2" fill="#0e4429" /><rect x="104" y="151" width="13" height="13" rx="2" fill="#006d32" /><rect x="121" y="151" width="13" height="13" rx="2" fill="#26a641" /><rect x="138" y="151" width="13" height="13" rx="2" fill="#39d353" /><rect x="155" y="151" width="13" height="13" rx="2" fill="#69f0a0" /><text x="176" y="161" font-family="sans-serif" font-size="11px" fill="#c9d1d9">More</text>
-<text x="36" y="181" font-family="sans-serif" font-size="12px" fill="#c9d1d9">0 contributions in the last year &#8226; current streak 0 &#8226; longest streak 0</text>
+<text x="36" y="181" font-family="sans-serif" font-size="12px" fill="#c9d1d9">11 contributions in the last year &#8226; current streak 1 &#8226; longest streak 2</text>
 </svg>
