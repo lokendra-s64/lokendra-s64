@@ -1,0 +1,51 @@
+name: Update GitHub profile stats
+
+on:
+  schedule:
+    - cron: "17,47 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Fetch live GitHub data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: lokendra-s64
+        run: python scripts/fetch_contributions.py
+
+      - name: Render contribution graph
+        run: python scripts/render_heatmap_svg.py data/contributions.json contrib-heatmap.svg
+
+      - name: Render info card
+        run: python scripts/make_info_card.py info-card.svg
+
+      - name: Render stats card
+        run: python scripts/make_stats_card.py data/contributions.json stats-card.svg
+
+      - name: Render profile UI assets
+        run: |
+          python scripts/make_hero_card.py
+          python scripts/make_waves.py
+          python scripts/make_tech_stack.py
+
+      - name: Commit generated files
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "chore: refresh live GitHub profile stats [skip ci]"
+          file_pattern: "data/contributions.json contrib-heatmap.svg info-card.svg stats-card.svg hero.gif tech-stack.svg tech-stack.png waves.gif"
